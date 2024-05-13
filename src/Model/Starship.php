@@ -9,14 +9,14 @@ class Starship
      * @param string $name
      * @param string $class
      * @param string $captain
-     * @param string $status
+     * @param StarshipStatusEnum $status
      */
     public function __construct(
         private int $id,
         private string $name,
         private string $class,
         private string $captain,
-        private string $status,
+        private StarshipStatusEnum $status,
     )
     {
 
@@ -57,8 +57,20 @@ class Starship
     /**
      * @return string
      */
-    public function getStatus(): string
+    public function getStatusString(): string
     {
-        return $this->status;
+        return $this->status->value;
+    }
+
+    /**
+     * @return string
+     */
+    public function getStatusImageFilename(): string
+    {
+        return match ($this->status) {
+            StarshipStatusEnum::WAITING => 'images/status-waiting.png',
+            StarshipStatusEnum::IN_PROGRESS => 'images/status-in-progress.png',
+            StarshipStatusEnum::COMPLETED => 'images/status-complete.png',
+        };
     }
 }
