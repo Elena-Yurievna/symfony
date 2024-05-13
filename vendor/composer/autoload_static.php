@@ -37,6 +37,7 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
         'S' => 
         array (
             'Symfonycasts\\TailwindBundle\\' => 28,
+            'Symfony\\UX\\StimulusBundle\\' => 26,
             'Symfony\\Runtime\\Symfony\\Component\\' => 34,
             'Symfony\\Polyfill\\Php83\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -130,6 +131,10 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
         'Symfonycasts\\TailwindBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfonycasts/tailwind-bundle/src',
+        ),
+        'Symfony\\UX\\StimulusBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/stimulus-bundle/src',
         ),
         'Symfony\\Runtime\\Symfony\\Component\\' => 
         array (
