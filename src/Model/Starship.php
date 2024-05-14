@@ -63,6 +63,14 @@ class Starship
     }
 
     /**
+     * @return StarshipStatusEnum
+     */
+    public function getStatus(): StarshipStatusEnum
+    {
+        return $this->status;
+    }
+
+    /**
      * @return string
      */
     public function getStatusImageFilename(): string
