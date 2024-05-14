@@ -37,6 +37,7 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
         'S' => 
         array (
             'Symfonycasts\\TailwindBundle\\' => 28,
+            'Symfony\\UX\\Turbo\\' => 17,
             'Symfony\\UX\\StimulusBundle\\' => 26,
             'Symfony\\Runtime\\Symfony\\Component\\' => 34,
             'Symfony\\Polyfill\\Php83\\' => 23,
@@ -77,6 +78,7 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
             'Symfony\\Bundle\\WebProfilerBundle\\' => 33,
             'Symfony\\Bundle\\TwigBundle\\' => 26,
             'Symfony\\Bundle\\MonologBundle\\' => 29,
+            'Symfony\\Bundle\\MakerBundle\\' => 27,
             'Symfony\\Bundle\\FrameworkBundle\\' => 31,
             'Symfony\\Bundle\\DebugBundle\\' => 27,
             'Symfony\\Bridge\\Twig\\' => 20,
@@ -88,6 +90,7 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
             'Psr\\EventDispatcher\\' => 20,
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
+            'PhpParser\\' => 10,
             'PHPStan\\PhpDocParser\\' => 21,
         ),
         'M' => 
@@ -96,6 +99,7 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
         ),
         'D' => 
         array (
+            'Doctrine\\Inflector\\' => 19,
             'Doctrine\\Deprecations\\' => 22,
         ),
         'C' => 
@@ -131,6 +135,10 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
         'Symfonycasts\\TailwindBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfonycasts/tailwind-bundle/src',
+        ),
+        'Symfony\\UX\\Turbo\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/ux-turbo/src',
         ),
         'Symfony\\UX\\StimulusBundle\\' => 
         array (
@@ -292,6 +300,10 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
         array (
             0 => __DIR__ . '/..' . '/symfony/monolog-bundle',
         ),
+        'Symfony\\Bundle\\MakerBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/maker-bundle/src',
+        ),
         'Symfony\\Bundle\\FrameworkBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/framework-bundle',
@@ -324,6 +336,10 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
         ),
+        'PhpParser\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
         'PHPStan\\PhpDocParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpstan/phpdoc-parser/src',
@@ -331,6 +347,10 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Doctrine\\Inflector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector',
         ),
         'Doctrine\\Deprecations\\' => 
         array (
